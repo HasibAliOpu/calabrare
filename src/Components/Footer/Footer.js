@@ -12,7 +12,7 @@ const Footer = () => {
           <span class="footer-title">
             <img
               src="https://celebrare.in/img/icon_up.jpg"
-              alt=""
+              alt="company logo"
               className="w-10 ml-10"
             />
             <h1 className="text-2xl">Celebrare</h1>
@@ -127,13 +127,13 @@ const Footer = () => {
           <span class="text-black text-2xl font-dancing">Stay Connected</span>
           <span className="flex gap-3">
             <a href="/" class="link link-hover">
-              <img src={Instagram} alt="" />
+              <img src={Instagram} alt="Instagram" />
             </a>
             <a href="/" class="link link-hover">
-              <img src={Pinterest} alt="" />
+              <img src={Pinterest} alt="Pinterest" />
             </a>
             <a href="/" class="link link-hover">
-              <img src={Facebook} alt="" />
+              <img src={Facebook} alt="Facebook" />
             </a>
           </span>
           <a
@@ -142,7 +142,11 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="btn btn-outline"
           >
-            <img src={PlayStore} alt="" className="w-6 hover:bg-white" />
+            <img
+              src={PlayStore}
+              alt="PlayStore"
+              className="w-6 hover:bg-white"
+            />
             <p>
               Get it on <br />
               Google Play

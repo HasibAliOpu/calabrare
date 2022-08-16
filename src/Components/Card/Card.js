@@ -15,7 +15,7 @@ const Card = () => {
       <div className="px-7 lg:px-20 pb-10">
         <img
           src={Background}
-          alt=""
+          alt="background img"
           className="rounded-full w-full h-52 lg:h-96"
         />
         <h1 className="absolute top-10 left-1/3 text-xl lg:text-6xl text-white tracking-wider">
@@ -41,13 +41,13 @@ const Card = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={Page1} alt="" />
+              <img src={Page1} alt="Card-Page-1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Page2} alt="" />
+              <img src={Page2} alt="Card-Page-2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Page3} alt="" />
+              <img src={Page3} alt="Card-Page-3" />
             </SwiperSlide>
           </Swiper>
         </div>
@@ -68,10 +68,14 @@ const Card = () => {
             dolores. Necessitatibus deleniti maiores aspernatur quas. Deleniti
             quisquam commodi quasi aliquid dolor ducimus?
           </p>
-
-          <button className="btn px-12 ml-12 lg:ml-0 lg:px-32 pt-4 lg:pt-8 pb-12 rounded-3xl text-white text-xl lg:text-2xl">
-            Try This Card
-          </button>
+          <div className="mx-5">
+            <a
+              href="/"
+              className="btn w-full rounded-2xl text-white text-xl lg:text-2xl"
+            >
+              Try This Card
+            </a>
+          </div>
         </div>
       </div>
     </div>
