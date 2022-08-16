@@ -5,6 +5,9 @@ module.exports = {
       fontFamily: {
         dancing: ["Dancing Script, cursive"],
       },
+      borderRadius: {
+        full: "50px",
+      },
     },
   },
   daisyui: {
