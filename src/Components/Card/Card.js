@@ -11,7 +11,7 @@ import Page2 from "../../assets/Page2.jpg";
 import Page3 from "../../assets/Page3.jpg";
 const Card = () => {
   return (
-    <div className="relative my-10">
+    <div className="relative h-screen">
       <div className="px-20 pb-10">
         <img src={Background} alt="" className="rounded-full w-full h-96" />
         <h1 className="absolute top-10 left-1/3 text-6xl text-white tracking-wider">
