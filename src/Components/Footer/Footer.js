@@ -13,7 +13,7 @@ const Footer = () => {
             <img
               src="https://celebrare.in/img/icon_up.jpg"
               alt=""
-              className="w-1/6 ml-10"
+              className="w-10 ml-10"
             />
             <h1 className="text-2xl">Celebrare</h1>
           </span>
